@@ -1,0 +1,9 @@
+# Core Ragas evaluation stack (required)
+ragas>=0.2,<0.3
+langchain-openai>=0.1
+
+# Optional judge / embeddings providers — install the ones you use
+langchain-anthropic>=0.1
+langchain-google-genai>=1.0
+langchain-huggingface>=0.0.3
+sentence-transformers>=2.2
