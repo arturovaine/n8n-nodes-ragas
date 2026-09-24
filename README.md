@@ -39,7 +39,7 @@ one pass — the way Ragas is designed to work.
 
 ## Screenshots
 
-**On the canvas** — drop it after any node that produces RAG samples:
+**On the canvas** — wired after an AI Agent (or any node that produces RAG samples):
 
 ![Ragas Evaluate on the n8n canvas](docs/images/canvas-view.png)
 
