@@ -37,6 +37,24 @@ one pass — the way Ragas is designed to work.
 > Anthropic has no embeddings API. When you pick an Anthropic judge, pair it with
 > **HuggingFace-local** embeddings (no key needed) or OpenAI embeddings.
 
+## Screenshots
+
+**On the canvas** — drop it after any node that produces RAG samples:
+
+![Ragas Evaluate on the n8n canvas](docs/images/canvas-view.png)
+
+**Discoverable in the node picker** — search "Ragas":
+
+![Ragas Evaluate in the node search](docs/images/node-picker-search.png)
+
+**Choose your metrics** — a single multi-select, each with a description:
+
+![Metrics multi-select](docs/images/metrics-dropdown.png)
+
+**Choose your judge provider:**
+
+![Judge provider dropdown](docs/images/judge-provider-dropdown.png)
+
 ## How it works
 
 The node collects your input items, maps their fields to Ragas samples, and
