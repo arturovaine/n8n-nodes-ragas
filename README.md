@@ -11,6 +11,8 @@ more) out — then branch on thresholds downstream.
 > installed on the host. It is designed for **self-hosted n8n** and cannot run on
 > n8n Cloud.
 
+![Ragas Evaluate node in n8n](docs/images/ragas-evaluate-node.png)
+
 ## The node: Ragas Evaluate
 
 A single node evaluates a batch of samples against a selected set of metrics in
